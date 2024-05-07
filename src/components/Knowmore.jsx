@@ -12,63 +12,14 @@ import image9 from "../image/col45.png";
 import image10 from "../image/col39.png";
 import Footer from "./footer";
 import Toptodown from "./Toptodown";
+import Nav from "./Nav";
 
 const ResponsiveContainerLayout = () => {
   return (
     <>
     <div className="container-fluid b">
       <div className="container-fluid b">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white p-3">
-          <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand " href="/home ">
-              ADDA ERP
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link" href="/pricing">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/customer-love">
-                    Customer Love
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/blog">
-                    Blog
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/contact">
-                    Contact Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                <form className="d-flex">
-            <a className="btn btn-outline-success mx-2  "   href="/login">Sign In</a>
-            <a className="btn btn-outline-success me-2 mx-2 "  href="/search-name" >Start Free Trial</a>
-          </form>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+       <Nav/>
         </div>
         </div>
    <div className='container104'>

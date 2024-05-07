@@ -2,6 +2,7 @@ import React from 'react';
 import image from "../image/col98.png";
 import Footer from "./footer";
 import Toptodown from "./Toptodown";
+import Nav from "./Nav";
 const BackgroundImageContainer = () => {
   return (
     <>
@@ -12,58 +13,8 @@ const BackgroundImageContainer = () => {
         <div className="background-content79">
         <div className="container-fluid78  cont ">
       <div className="container-fluid78 ">
-        <nav className="navbar navbar-expand-lg navbar-light p-3">
-          <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand " href="/Home ">
-              ADDA ERP
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link" href="/pricing">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/customer-Love">
-                    Customer Love
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/blog">
-                    Blog
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/contact">
-                    Contact Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                <form className="d-flex">
-                <a className="btn btn-outline-success me-2 mx-2 "  href="/search-name" >Start Free Trial</a>
-            <a className="btn btn-outline-success mx-0  "   href="/login">Sign In</a>
-           
-          </form>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav></div>
+      <Nav/>
+      </div>
         </div>
         </div>
       </div>
