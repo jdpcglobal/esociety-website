@@ -145,7 +145,9 @@ function SignUpForm() {
        
       )}
     </div>
-   
+    <div className='demo3'>
+        <p>Copyright 2024 | All Rights Reserved</p>
+      </div>
     </>
   );
 }

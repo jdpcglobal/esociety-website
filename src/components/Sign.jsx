@@ -61,7 +61,7 @@ function SignIn() {
           />
 
          <label1>
-             I agree to the<a className='under' href="/terms and conditions">Terms and Conditions</a> 
+             I agree to the<a className='under' href="/terms-and-conditions">Terms and Conditions</a> 
           </label1>
         </div>
         <div className="form-group">
