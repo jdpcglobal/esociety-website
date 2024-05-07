@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 
 import Footer from "./footer";
+import Toptodown from "./Toptodown";
 
 const ImageScrollSection = () => {
   const handleClickScroll = (targetId) => {
@@ -26,7 +27,7 @@ const ImageScrollSection = () => {
       <div className="container-fluid79 colo">
         <nav className="navbar navbar-expand-lg navbar-light  p-3 sidecolor">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand colo1" href="/home ">
+            <a className="navbar-brand colo1" href="/">
               ADDA ERP
             </a>
             <button
@@ -324,6 +325,7 @@ c. risks to the rights and freedoms of data subjects are minimised.</div>
     
       
         <Footer/>
+        <Toptodown/>
     </>
   );
 };

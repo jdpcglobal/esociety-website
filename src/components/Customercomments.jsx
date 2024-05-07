@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './footer';
+import Toptodown from "./Toptodown";
 
 const Customerlove = () => {
   // Hardcoded comments
@@ -76,6 +77,7 @@ const Customerlove = () => {
       </div>
     </div>
     <Footer/>
+    <Toptodown/>
     </>
   );
 };

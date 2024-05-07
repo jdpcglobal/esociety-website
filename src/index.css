@@ -171,6 +171,7 @@ img.imag{
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
+  margin-bottom: 75px;
 }
 
 .signin-form {
@@ -919,10 +920,13 @@ margin: auto;
     padding-right: 1vw;
     padding-bottom: 1vw;
     padding-left: 1vw;
-   
+   position: fixed;
+   bottom: 0;
+   z-index: -1;
+
     width: 100%;
     margin-top: 70px;
-    bottom: auto;
+    
 }
 .demo45{
   margin-top: 4px;
@@ -1613,6 +1617,9 @@ margin-top: 80px;
   flex-direction: column;
   align-items: center;
 }
+p.pops.right1{
+  text-align: center;
+}
 
 /* Background container with image */
 .background-container78 {
@@ -1630,6 +1637,7 @@ margin-top: 80px;
   text-decoration: none;
   list-style:none ;
 }
+
 
 .sidecolor{
   background: rgba(0, 0, 0, .41);
@@ -1701,6 +1709,29 @@ margin-top: 80px;
 .container-fluid{
   padding-left: 0px !important;
 }
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 13px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 5%;
+  height: auto;
+
+}
+
+.scroll-to-top-button:hover {
+  opacity: 0.8;
+}
+
+
 
 /* responsiv navbar home */
 
@@ -1936,6 +1967,9 @@ p.active{
 .container.down34 {
   margin-top: 100px;
 }
+.signin-container.down23{
+  margin-top: 90px;
+}
 .down8{
   font-family: Raleway-Bold, "Times New Roman", Times, serif;
     font-size: 18px;
@@ -1950,6 +1984,9 @@ p.active{
 }
 .contact-form-container1{
   margin-top: 80px;
+}
+.contact-form-container{
+  margin-bottom: 75px;
 }
 
 
@@ -2201,5 +2238,22 @@ img.img-fluid.sidedown22{
 }
 .demo3.down56 {
   margin-top: 280px;
+}
+.column.column35.delete2{
+  display: none;
+}
+.column.column35.delete3{
+  display: none;
+}
+img.logoimage.mx-5{
+  width: 22%;
+  margin-bottom: 10px;
+}
+.signin-container.down23{
+  margin-top: 145px;
+}
+.scroll-to-top-button{
+width: 14%;
+  
 }
 }

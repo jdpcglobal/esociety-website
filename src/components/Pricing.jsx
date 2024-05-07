@@ -4,6 +4,7 @@ import image29 from "../image/col29.png";
 import image30 from "../image/col30.png";
 import image31 from "../image/col31.png";
 import Footer from "./footer";
+import Toptodown from "./Toptodown";
 
 function CenteredTextContainer({ children }) {
   return (
@@ -20,7 +21,7 @@ function App() {
       <div className="container-fluid ">
         <nav className="navbar navbar-expand-lg navbar-light bg-white p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand " href="/Home ">
+            <a className="navbar-brand " href="/ ">
               ADDA ERP
             </a>
             <button
@@ -196,7 +197,7 @@ function App() {
    
     <Footer/>  
     
-
+<Toptodown/>
     </>
   );
 }

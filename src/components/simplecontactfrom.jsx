@@ -7,12 +7,13 @@ function ContactForm() {
   const [city, setCity] = useState('');
   const [comments, setComments] = useState('');
   const [submitted, setSubmitted] = useState(false); // State for handling submission confirmation
+  const [contactApi, setContactApi] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here (e.g., send data to server)
 
-    // For demonstration, log the form data to console
+    
     console.log('Full Name:', fullName);
     console.log('Email:', email);
     console.log('Phone Number:', phoneNumber);
@@ -32,13 +33,47 @@ function ContactForm() {
     // You can optionally add additional logic here (e.g., API call, redirect)
   };
 
+
+  const ContactApi = async () => {
+    const payload = {
+        // token: token
+        name: fullName,
+        phone: phoneNumber,
+        email: email,
+        message: comments,
+        city: city,
+        key: 'AKMKDLOCMDOABUBDDS'
+    };
+    console.log('NotificationScreen=====', payload)
+    try {
+        const response = await fetch(
+            'https://jdpcglobal.com/api/save_contact_us', {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+            },
+            body: JSON.stringify(payload),
+        });
+        if (!response.ok) {
+            throw new Error('NotificationScreen Error');
+        }
+
+        const data = await response.json();
+
+        console.log('ContactApi=====', data.message)
+        setContactApi(data.message)
+    } catch (error) {
+        console.error('NotificationScreen Error Last');
+    }
+}
+
   return (
     <>
      <div className="container-fluid1 b">
       <div className="container-fluid1 b">
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand" href="/Home">
+            <a className="navbar-brand" href="/">
               ADDA ERP
             </a>
             <button
@@ -138,10 +173,10 @@ function ContactForm() {
                 required
               ></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <button onClick={ContactApi} type="submit">Submit</button>
           </form>
         ) : (
-          <p className='pops' >Thanks for you</p>
+          <p className='pops right1' >{contactApi}</p>
         )}
       </div>
       <div className='demo3'>

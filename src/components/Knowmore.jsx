@@ -11,6 +11,7 @@ import image8 from "../image/col42.png";
 import image9 from "../image/col45.png";
 import image10 from "../image/col39.png";
 import Footer from "./footer";
+import Toptodown from "./Toptodown";
 
 const ResponsiveContainerLayout = () => {
   return (
@@ -203,6 +204,7 @@ Your View</h1>
     
      
   <Footer/> 
+  <Toptodown/>
        </>
   );
 };

@@ -13,8 +13,10 @@ import Getstart from './components/Getstart';
 import Knowmore from './components/Knowmore';
 import Future from './components/Future';
 import Aboutus from './components/Aboutus';
-
 import Terms from './components/Terms';
+import Create from './components/Create';
+
+
 
 
 
@@ -31,7 +33,7 @@ const Routs = () => {
           <Route path="/contact" element={<ContactForm />} />
           <Route path="/login" element={<SignInForm />} />
           <Route path="/search-name" element={<StartFreeTrialForm />} />
-          <Route path="/Home" element={<Navbar />} />
+          <Route path="/" element={<Navbar />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/customer-love" element={<Customercomments />} />
           <Route path="/blog" element={<BlogDemo/>} />
@@ -40,10 +42,11 @@ const Routs = () => {
           <Route path="/know-more" element={<Knowmore/>} />
           <Route path="/future" element={<Future/>} />
           <Route path="/about-us" element={<Aboutus/>} />
+          <Route path="/sing-up" element={<Create/>} />
           
           <Route path="/terms-and-conditions" element={<Terms/>} />
           
-          
+         
           
           
           

@@ -238,7 +238,7 @@ IOT Based Vehicle Access Management
          
           
           <a href="/contact"> <button className="custom-button33">Request Demo </button></a>
-          <a href="/Home "> <button className="custom-button333">Know More </button></a>
+          <a href="/ "> <button className="custom-button333">Know More </button></a>
           
         </div>
        
@@ -304,7 +304,7 @@ Asset & Inventory
          
           
           <a href="/contact"> <button className="custom-button33">Request Demo</button></a>
-          <a href="/Home "> <button className="custom-button333">Know More </button></a>
+          <a href="/ "> <button className="custom-button333">Know More </button></a>
           
         </div>
        
@@ -355,7 +355,7 @@ Online Facility Booking
           <img src={image20} alt="Example" className="image33" />
           <div className='text33'>
           <a href="/contact"> <button className="custom-button33">Request Demo </button></a>
-          <a href="/Home "> <button className="custom-button333">Know More </button></a>
+          <a href="/ "> <button className="custom-button333">Know More </button></a>
              </div>
           
         </div>
@@ -384,18 +384,18 @@ Do have a look at  Enterprise Edition - it’s tailor-made for you!</p>
           <div className='row'>
             <h1 className='text331'>Trusted by over 3,500+ Residential Communities around the world</h1>
            <p className='text331'>
-           <div className="column column35">
+           <div className="column column35 delete">
           <img src={image23} alt="Example" className="logoimage mx-5 "/>
           <img src={image24} alt="Example" className="logoimage mx-5 "/>
-          <img src={image25} alt="Example" className="logoimage mx-5 "/>
+          <img src={image29} alt="Example" className="logoimage mx-5 "/>
           <img src={image26} alt="Example" className="logoimage mx-5 "/>
-          <img src={image27} alt="Example" className="logoimage mx-5 "/>
-          <img src={image28} alt="Example" className="logoimage mx-5 "/>
+          <img src={image39} alt="Example" className="logoimage mx-5 "/>
+          <img src={image40} alt="Example" className="logoimage mx-5 "/>
           
           
         </div>
-        <div className="column column35">
-          <img src={image29} alt="Example" className="logoimage mx-5"/>
+        <div className="column column35 delete2">
+          <img src={image25} alt="Example" className="logoimage mx-5"/>
           <img src={image30} alt="Example" className="logoimage mx-5 "/>
           <img src={image31} alt="Example" className="logoimage mx-5 "/>
           <img src={image32} alt="Example" className="logoimage mx-5 "/>
@@ -403,13 +403,13 @@ Do have a look at  Enterprise Edition - it’s tailor-made for you!</p>
           <img src={image34} alt="Example" className="logoimage mx-5 "/>
           
         </div>
-        <div className="column column35">
+        <div className="column column35 delete3">
           <img src={image35} alt="Example" className="logoimage mx-5"/>
           <img src={image36} alt="Example" className="logoimage mx-5 "/>
           <img src={image37} alt="Example" className="logoimage mx-5 "/>
           <img src={image38} alt="Example" className="logoimage mx-5 "/>
-          <img src={image39} alt="Example" className="logoimage mx-5 "/>
-          <img src={image40} alt="Example" className="logoimage mx-5 "/>
+          <img src={image27} alt="Example" className="logoimage mx-5 "/>
+          <img src={image28} alt="Example" className="logoimage mx-5 "/>
           
           
         </div>

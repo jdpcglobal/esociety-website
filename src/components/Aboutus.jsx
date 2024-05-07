@@ -1,6 +1,7 @@
 import React from 'react';
 import image from "../image/col98.png";
 import Footer from "./footer";
+import Toptodown from "./Toptodown";
 const BackgroundImageContainer = () => {
   return (
     <>
@@ -98,6 +99,7 @@ const BackgroundImageContainer = () => {
     <div className='border12'></div>
     <div className='border13'>
         <Footer/>
+        <Toptodown/>
     </div>
     </>
   );

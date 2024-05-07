@@ -6,6 +6,7 @@ import image3 from "../image/col95.png";
 import image4 from "../image/col96.png";
 import image5 from "../image/col97.png";
 import Footer from './footer';
+import Toptodown from "./Toptodown";
 
 const ImageScrollSection = () => {
   const handleClickScroll = (targetId) => {
@@ -161,7 +162,8 @@ const ImageScrollSection = () => {
    
     </div>
     <div className='foo'>
-    <Footer/>   
+    <Footer/>  
+    <Toptodown/> 
     </div>
     </>
   );

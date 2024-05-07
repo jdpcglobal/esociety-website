@@ -4,6 +4,7 @@ import image33 from "../image/col33.png";
 import image34 from "../image/col34.png";
 import image26 from "../image/col26.png";
 import Footer from './footer';
+import Toptodown from "./Toptodown";
 
 
 const BlogDemo = () => {
@@ -54,7 +55,7 @@ const BlogDemo = () => {
       <div className="container-fluid101 ">
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand " href="/Home ">
+            <a className="navbar-brand " href="/">
               ADDA ERP
             </a>
             <button
@@ -130,6 +131,7 @@ const BlogDemo = () => {
       </div>
     </div>
   <Footer/>
+  <Toptodown/>
     </>
   );
 };

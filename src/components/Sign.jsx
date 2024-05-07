@@ -19,11 +19,11 @@ function SignIn() {
 
   return (
     <>
-<div className="container-fluid1 b">
+ <div className="container-fluid1 b">
       <div className="container-fluid1 b">
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand" href="/Home">
+            <a className="navbar-brand" href="/">
               ADDA ERP
             </a>
             <button
@@ -117,13 +117,14 @@ function SignIn() {
         <div className="form-group">
           <button type="submit">Sign In</button>
         </div>
-        <div className="form-group">
-          <a href="#">Forgot Password?</a>
+        <div className="form-group down24">
+          
+          <a className='under1' href="/sing-up">Create Account</a>
         </div>
         
       </form>
        ) : (
-        <p className='pops'>Thanks for you</p>
+        <p className='pops'>Thank you for sign-in</p>
       )}
     </div>
     <div className='demo3'>

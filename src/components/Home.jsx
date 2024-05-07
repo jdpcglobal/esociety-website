@@ -1,6 +1,6 @@
 import React from 'react';
 import Datascroll from "./Datascroll";
-import Footer from './footer';
+import Toptodown from "./Toptodown";
 
 
 const CenteredContainer = () => {
@@ -12,7 +12,7 @@ const CenteredContainer = () => {
       <div className="container-fluid101 ">
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
           <div className="container d-flex justify-content-between align-items-center">
-            <a className="navbar-brand " href="/Home ">
+            <a className="navbar-brand " href="/">
               ADDA ERP
             </a>
             <button
@@ -75,7 +75,7 @@ const CenteredContainer = () => {
       </div>
       <Datascroll/>
     </div>
-    
+    <Toptodown/>
     </>
   );
 };

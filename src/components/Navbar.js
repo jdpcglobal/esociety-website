@@ -25,6 +25,8 @@ import image24 from "../image/col24.png";
 import image25 from "../image/col25.png";
           
 import Footer from "./footer";
+import Toptodown from "./Toptodown";
+
 
 const Navbar = () => {
   const [activeContent, setActiveContent] = useState(
@@ -492,6 +494,11 @@ const Navbar = () => {
     setActiveContent(content);
   };
 
+  
+
+ 
+
+
   return (
     <>
      <Helmet>
@@ -595,6 +602,7 @@ const Navbar = () => {
         )}
       </div>
       <Footer />
+     <Toptodown/>
     </>
   );
 };
