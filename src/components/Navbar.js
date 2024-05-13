@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
 import { Helmet } from 'react-helmet';
 import image from "../image/col1.png";
 import image5 from "../image/col7.png";
@@ -23,21 +24,27 @@ import image22 from "../image/col22.png";
 import image23 from "../image/col23.png";
 import image24 from "../image/col24.png";
 import image25 from "../image/col25.png";
+
           
 import Footer from "./footer";
 import Toptodown from "./Toptodown";
 import Nav from "./Nav";
 
 
+ 
+
 
 const Navbar = () => {
+
+   
   const [activeContent, setActiveContent] = useState(
-    <div className="row">
+    <div className="row"> 
+    
     <h1 className="title1" mt-5 >Come Together As a Community</h1>
     <h5 className="title2">The Private Social Network for your Apartment/Housing Society /Gated <p>Community</p></h5>
-    <div className="col-lg-6 p-3 ">
+    <div className="col-lg-6 p-3 main2">
       <div className="sideElement">
-        <h1 className="title3">Connect With Community Neighbors/Fellow Owners <p>& Association</p> </h1>
+        <h1 className="title3">Connect With Community Neighbors/Fellow Owners & Association </h1>
         <h5 className="contant2 ">
         ADDA provides a Private Social Networking Platfrom which helps connect Neighbors. Be it Important Discussions 
         regarding the Community, or asking Neighbors for Advice, or staying updated regarding all Activities
@@ -46,7 +53,7 @@ const Navbar = () => {
         </h5>
       </div>
     </div>
-    <div className="col-lg-6 p-3 d-flex justify-content-center align-items-center">
+    <div className="col-lg-6 p-3 main2 d-flex justify-content-center align-items-center">
       <img src={image5} alt="Your Image" className="img-fluid " />
     </div>
     <div class="row" mt-4 >
@@ -134,14 +141,16 @@ const Navbar = () => {
  <div className="requestb">
  <a href="contact"> <button className="custom-button33">Request Demo </button></a>
  </div>
-  </div>
+ </div>
+  
+  
 
   );
   const [activeImageId, setActiveImageId] = useState(1);
 
   const images = [
     { id: 1, src: image1, content: 
-      <div className="row">
+      <div className="row adda" >
       <h1 className="title1" mt-5 >Come Together As a Community</h1>
       <h5 className="title2">The Private Social Network for your Apartment/Housing Society /Gated <p>Community</p></h5>
       <div className="col-lg-6 p-3 ">
@@ -496,7 +505,16 @@ const Navbar = () => {
     setActiveContent(content);
   };
 
-  
+  const [showContent, setShowContent] = useState(false);
+  useEffect(() => {
+    // Set showContent to true after a delay to trigger animation
+    const timeout = setTimeout(() => {
+      setShowContent(true);
+    }, 500); // Adjust delay as needed
+
+    // Clear timeout on component unmount
+    return () => clearTimeout(timeout);
+  }, []);
 
  
 
@@ -520,7 +538,7 @@ const Navbar = () => {
                 </h5>
               </div>
             </div>
-            <div className="col-lg-6 p-3 d-flex justify-content-center align-items-center sidedown">
+            <div className="col-lg-6 p-3 main d-flex justify-content-center align-items-center sidedown">
               <img src={image} alt="Your Image" className="img-fluid" />
             </div>
           </div>
@@ -528,7 +546,9 @@ const Navbar = () => {
       </div>
 
       <div className="container-fluid1">
+      <div className={`container-fluid1 ${showContent ? 'slide-up' : ''}`}>
         <div className="row side">
+       
           {images.map((image) => (
             <div key={image.id} className="col-lg-3 p-3 mt-5">
               <div
@@ -544,18 +564,23 @@ const Navbar = () => {
             </div>
           ))}
         </div>
+        </div>
         {activeContent && (
-          <div className="row side">
+           <div className={`row side ${showContent ? 'slide-up' : ''}`}>
             <div className="col-lg-12 p-3">
               <div className="content">
                 <p>{activeContent}</p>
               </div>
             </div>
-          </div>
+            </div>
+          
         )}
       </div>
+      
       <Footer />
      <Toptodown/>
+     
+     
     </>
   );
 };
