@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from "../image/col92.png";
 import image1 from "../image/col93.png";
 import image2 from "../image/col94.png";
@@ -10,48 +10,46 @@ import Toptodown from "./Toptodown";
 import Nav from "./Nav";
 
 const ImageScrollSection = () => {
+  const [activeImage, setActiveImage] = useState(null);
+
   const handleClickScroll = (targetId) => {
     const targetElement = document.getElementById(`image-${targetId}-content`);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
+      setActiveImage(targetId); // Update active image on click
     }
   };
 
   return (
     <>
-    
       <div className="container-fluid updown ">
-       <Nav/>
-        </div>
-        
-        <div className='container-fluid down34'>
-          <div className='row down35'>
-    <h1 className='smoot'>Has features for each of the following Stakeholders...</h1>
-    <div className="image-scroll-section">
-      <div className="image-row38">
-        <img
-          src={image}
-          alt="Image 1"
-          className="image38"
-          onClick={() => handleClickScroll(1)}
-
-        />
-        <img
-          src={image1}
-          alt="Image 2"
-          className="image38"
-          onClick={() => handleClickScroll(2)}
-        />
-        <img
-          src={image2}
-          alt="Image 3"
-          className="image38"
-          onClick={() => handleClickScroll(3)}
-        />
-       
+        <Nav/>
       </div>
-      <div className='border1'></div>
-      <div className="content-section38">
+      <div className='container-fluid down34'>
+        <div className='row down35'>
+          <h1 className='smoot'>Has features for each of the following Stakeholders...</h1>
+          <div className="image-scroll-section">
+            <div className="image-row38 ">
+              <img
+                src={image}
+                alt="Image 1"
+                className={activeImage === 1 ? "image38 active" : "image38"}
+                onClick={() => handleClickScroll(1)}
+              />
+              <img
+                src={image1}
+                alt="Image 2"
+                className={activeImage === 2 ? "image38 active" : "image38"}
+                onClick={() => handleClickScroll(2)}
+              />
+              <img
+                src={image2}
+                alt="Image 3"
+                className={activeImage === 3 ? "image38 active" : "image38"}
+                onClick={() => handleClickScroll(3)}
+              />
+            </div>
+            {<div className="content-section38">
         <div id="image-1-content" className="image-content38">
         <div className="centered-column01">
           <h2 className="dec">Bird's Eye View of all Properties</h2>
@@ -104,18 +102,18 @@ const ImageScrollSection = () => {
           
         </div>
         </div>
+        </div>
+        }
+          </div>
+          <div className='but'>
+            <a href="/contact"> <button className="custom-button33">Request Demo </button></a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div className='but'>
-    <a href="/contact"> <button className="custom-button33">Request Demo </button></a>
-    </div>
-    </div>
-   
-    </div>
-    <div className='foo'>
-    <Footer/>  
-    <Toptodown/> 
-    </div>
+      <div className='foo'>
+        <Footer/>  
+        <Toptodown/> 
+      </div>
     </>
   );
 };

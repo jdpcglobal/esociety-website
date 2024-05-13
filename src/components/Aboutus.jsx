@@ -6,6 +6,7 @@ import Nav from "./Nav";
 const BackgroundImageContainer = () => {
   return (
     <>
+    <Nav/>
     <div className="main-container78">
       {/* First Container with Background Image */}
       <div className="background-container78">
@@ -13,7 +14,7 @@ const BackgroundImageContainer = () => {
         <div className="background-content79">
         <div className="container-fluid78  cont ">
       <div className="container-fluid78 ">
-      <Nav/>
+      
       </div>
         </div>
         </div>

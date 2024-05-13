@@ -33,7 +33,7 @@ const Footer = () => {
                   <p><a className="foot" href="/know-more">
                   Know More
                   </a></p>
-            <p><a className="foot" href="/Home ">
+            <p><a className="foot" href="/">
             ADDA ERP
                   </a></p>
 
