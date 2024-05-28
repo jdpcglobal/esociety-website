@@ -34,7 +34,7 @@ const CenteredRowWithImage = () => {
           <img src={image} alt="Example" className="image5" />
         </div>
       </div>
-      <div id="image-2-content" className="image-content">
+      <div id="image-2-content1" className="image-content">
         <div className="centered-container88">
       <h1 className="centered-heading88"><p className='tex16'>The pint-sized powerhouse to manage all aspects of your Apartment/Villa, and stay updated with everything in your Community</p></h1>
     

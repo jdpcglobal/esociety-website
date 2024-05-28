@@ -61,7 +61,7 @@ const ResponsiveContainerLayout = () => {
         </div>
         <div className="column-group01">
           <div className="inner-column02">
-          <h1>Your Customer’s View</h1>
+          <h1 className='left1'> Your Customer’s View</h1>
             <div className='colum3'>
     
     <img src={image6} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
@@ -77,7 +77,7 @@ const ResponsiveContainerLayout = () => {
     <div className='colum3'>
     
     <img src={image6} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-    Book Facility From Anywhere, Anytime & Much More.
+    Book Facility From Anywhere & Much More.
     </div>
     <div className='border mt-3'></div>
           </div>
@@ -93,7 +93,7 @@ const ResponsiveContainerLayout = () => {
           </div>
           <div className="inner-column04 ">
             
-          <h1>
+          <h1 className='left1'> 
 Your View</h1>
             <div className='colum3'>
     
@@ -104,14 +104,14 @@ Your View</h1>
     <div className='colum3'>
     
     <img src={image6} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-    Advanced Broadcast, Helpdesk, Billing, Purchasing etc.
+    Advanced Broadcast, Helpdesk, Purchasing etc.
     </div>
     <div className='border mt-3'></div>
     <div className='colum3'>
     
     <img src={image6} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
     
-    Integration With Back-end Enterprise SW - SAP / ORACLE etc.
+    Integration With Back-end Enterprise ORACLE etc.
     </div>
     <div className='border mt-3'></div>
           </div>
@@ -119,7 +119,7 @@ Your View</h1>
         </div>
         <div className="column-group01 bg-white mb-5 ">
           <div className="inner-column04 ">
-          <h1>Why ADDA?</h1>
+          <h1 className='down87'> Why ADDA?</h1>
             <div className='colum3'>
     
     <img src={image10} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
@@ -137,7 +137,7 @@ Your View</h1>
     
     <img src={image9} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
     
-    The most comprehensive Software in the Apartment Management Segment
+    The most comprehensive Software in Apartment Management Segment
     </div>
     <div className='border mt-3'></div>
          

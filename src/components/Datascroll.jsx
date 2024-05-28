@@ -202,24 +202,29 @@ With this Society Security App, Monitor Security Processes, Investigate incident
 and much more</p>
 
 <h1 className='text20'>POPULAR FEATURES</h1>
-<div className='content35'>
+<div className='content35'><span>
 <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-Visitor Management
+Visitor Management</span>
+<span>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- IOT Based Staff Management
+ IOT Based Staff Management</span>
+ <span>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
  Move in / Move out Management
- 
+ </span>
+ <span>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Security Hardware Integration
+ Security Hardware Integration</span>
+ <span>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
  
 IOT Based Vehicle Access Management
- 
+ </span>
+ <span>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
 
  Emergency Management
-
+</span>
  
  <p className='imag17'>
 
