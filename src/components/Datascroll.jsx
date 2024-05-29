@@ -202,29 +202,29 @@ With this Society Security App, Monitor Security Processes, Investigate incident
 and much more</p>
 
 <h1 className='text20'>POPULAR FEATURES</h1>
-<div className='content35'><span>
+<div className='content35'><span11>
 <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-Visitor Management</span>
-<span>
+Visitor Management</span11>
+<span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- IOT Based Staff Management</span>
- <span>
+ IOT Based Staff Management</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
  Move in / Move out Management
- </span>
- <span>
+ </span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Security Hardware Integration</span>
- <span>
+ Security Hardware Integration</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
  
 IOT Based Vehicle Access Management
- </span>
- <span>
+ </span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
 
  Emergency Management
-</span>
+</span11>
  
  <p className='imag17'>
 
@@ -274,23 +274,30 @@ Automatic Bill Generation and AR entries,
 Integrated Society Management System</p>
 
 <h1 className='text20'>POPULAR FEATURES</h1>
-<div className='content35'>
+<div className='content35'><span11>
 <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Community Communication
+ Community Communication</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Helpdesk
+ Helpdesk</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Accounting
+ Accounting</span11>
+ <span11>
  
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Expense Management
+ Expense Management</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
  Billing & Payment Gateway
- 
+ </span11>
+
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-Asset & Inventory
+Asset & Inventory</span11>
+<span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Admin Reports
+ Admin Reports</span11>
  
  <p className='imag17'>
 
@@ -335,16 +342,20 @@ Fool-proof access management</p>
 
 <h1 className='text20'>POPULAR FEATURES</h1>
 <div className='content35'>
+  <span11>
 <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
-Online Facility Booking
+Online Facility Booking</span11>
+<span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Multi Communities One Clubhouse Architecture
+ Multi Communities One Clubhouse Architecture</span11>
+ <span11>
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
- Separate Books of Accounts For Association and Clubhouse
+ Separate Books of Accounts For Association</span11>
+ <span11>
  
  <img src={image16} alt="Your Image" className="img-fluid35 mx-2 mb-1" />
 
- IOT based Access Control
+ IOT based Access Control</span11>
  
 
  
