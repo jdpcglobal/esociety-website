@@ -60,7 +60,7 @@ Pre-authenticate Guests</p>
 Reviews, View Attendance</p>
         </div>
        
-        <div className="column88 colum88">
+        <div className="column88 colum88 colum">
         <img src={image7} alt="Your Image" className="img-fluid6" />
         <h3  className='text20'>Bill Payments</h3>
         <p className='text19'>Easy payment options for

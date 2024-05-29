@@ -38,12 +38,12 @@ const Navbar = () => {
 
    
   const [activeContent, setActiveContent] = useState(
-    <div className="row">
+    <div className="row adda" >
     <h1 className="title1" mt-5 >Come Together As a Community</h1>
     <h5 className="title2">The Private Social Network for your Apartment/Housing Society /Gated <p>Community</p></h5>
-    <div className="col-lg-6 p-3 main2">
+    <div className="col-lg-6 p-3 ">
       <div className="sideElement">
-        <h1 className="title3">Connect With Community Neighbors/Fellow Owners & Association </h1>
+        <h1 className="title3">Connect With Community Neighbors/Fellow Owners <p>& Association</p> </h1>
         <h5 className="contant2 ">
         ADDA provides a Private Social Networking Platfrom which helps connect Neighbors. Be it Important Discussions 
         regarding the Community, or asking Neighbors for Advice, or staying updated regarding all Activities
@@ -52,7 +52,7 @@ const Navbar = () => {
         </h5>
       </div>
     </div>
-    <div className="col-lg-6 p-3 main2 d-flex justify-content-center align-items-center">
+    <div className="col-lg-6 p-3 d-flex justify-content-center align-items-center">
       <img src={image5} alt="Your Image" className="img-fluid " />
     </div>
     <div class="row" mt-4 >
